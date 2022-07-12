@@ -5,8 +5,11 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  define: {
+    'import.meta.vitest': 'undefined',
+  },
   test: {
-    /* for example, use global to avoid globals imports (describe, test, expect): */
-    // globals: true,
+    globals: true,
+    includeSource: ['src/**/*.ts'],
   },
 })

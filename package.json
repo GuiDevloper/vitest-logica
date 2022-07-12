@@ -1,9 +1,8 @@
 {
-  "name": "@vitest/example-test",
-  "type": "module",
+  "name": "vitest-logica",
+  "description": "Logical exercises to illustrate line of thoughts and unit-test/TDD features.",
   "private": true,
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
